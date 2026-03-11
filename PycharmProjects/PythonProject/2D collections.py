@@ -1,0 +1,10 @@
+fruits =     ["apple", "orange", "banana", "coconut"]
+vegetables = ["celery", "carrots", "potatoes"]
+meats =      ["chicken", "fish", "turkey"]
+
+groceries = [fruits, vegetables, meats]
+
+for collections in groceries:
+    for food in collections:
+        print(food, end=" ")
+    print()
